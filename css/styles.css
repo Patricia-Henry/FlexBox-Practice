@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color:darkslategray;
+    padding: 10px;
+}
+
+.item {
+    background-color: blue;
+    padding: 40px;
+    margin: 30px;
+    color:coral;
+    font-size: 40px;
+}
