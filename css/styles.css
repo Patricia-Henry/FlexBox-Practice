@@ -11,8 +11,32 @@
     flex-direction: row-reverse;
 }
 
-.item {
+.item1 {
     background-color: blue;
+    padding: 40px;
+    margin: 30px;
+    color:coral;
+    font-size: 40px;
+}
+
+.item2 {
+    background-color:darksalmon;
+    padding: 40px;
+    margin: 30px;
+    color:coral;
+    font-size: 40px;
+}
+
+.item3 {
+    background-color:darkmagenta;
+    padding: 40px;
+    margin: 30px;
+    color:coral;
+    font-size: 40px;
+}
+
+.item4 {
+    background-color: white;
     padding: 40px;
     margin: 30px;
     color:coral;
