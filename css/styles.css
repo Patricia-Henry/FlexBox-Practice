@@ -1,44 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+* {
     box-sizing: border-box;
 }
 
-.container {
-    background-color:darkslategray;
-    padding: 10px;
-    display:flex;
-    flex-direction: row-reverse;
+
+/* lets see what this wrapper can do */
+
+.wrapper {
+    padding: 20px 0 20px 0;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 20px;
+    background-color: #ef874e;
 }
 
-.item1 {
+body {
     background-color: blue;
-    padding: 40px;
-    margin: 30px;
-    color:coral;
-    font-size: 40px;
 }
 
-.item2 {
-    background-color:darksalmon;
-    padding: 40px;
-    margin: 30px;
-    color:coral;
-    font-size: 40px;
-}
-
-.item3 {
-    background-color:darkmagenta;
-    padding: 40px;
-    margin: 30px;
-    color:coral;
-    font-size: 40px;
-}
-
-.item4 {
-    background-color: white;
-    padding: 40px;
-    margin: 30px;
-    color:coral;
-    font-size: 40px;
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
