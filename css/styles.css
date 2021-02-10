@@ -23,3 +23,8 @@ ul {
     justify-content: space-between;
     align-items: flex-end;
 }
+
+#logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4em;
+}
