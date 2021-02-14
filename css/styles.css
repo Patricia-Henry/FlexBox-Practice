@@ -1,30 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap");
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
 
 /* lets see what this wrapper can do */
 
-.wrapper {
-    padding: 20px 0 20px 0;
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    column-gap: 20px;
+/* .wrapper {
+    padding: 10px 0 10px 0;
+    row-gap: 50px;
     background-color: #ef874e;
+     display: flex;
+     flex-direction: row; 
+    
+} */
+
+header {
+  background-color: rgb(199, 219, 84);
+  padding-inline: 0;
 }
 
 body {
-    background-color: blue;
+  background-color: rgb(188, 188, 223);
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr 2fr 3fr;
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-#logo {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 4em;
+li {
+  display: flex;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+}
+
+.flexbox {
+  padding: 10px 0 10px 0;
+  /* row-gap: 50px; */
+  background-color: #ef874e;
+  /* text-decoration: none; */
+  justify-content: center;
+  display: flex;
+}
+
+.container1 {
+height: 200px;
+width: 200px;
+  background-color: cornsilk;
+  padding: 0;
+  
+}
+
+.container2 {
+    height: 200px;
+    width: 200px;
+  background-color: rgb(184, 11, 118);
+  padding: 0;
+}
+
+.container3 {
+    height: 200px;
+    width: 200px;
+  background-color: lightgreen;
+  padding: 0;
 }
